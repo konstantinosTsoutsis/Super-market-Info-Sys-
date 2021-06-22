@@ -111,3 +111,6 @@
 <b>ΕΠΙΤΥΧΗΜΕΝΗ ΕΝΗΜΕΡΩΣΗ</b>
 <img src="screens/12.update.png">
 <br>
+<br>
+<h1>Containerization</h1>
+<p>Για το Containerization δημιουργήθηκε ο φάκελος 'askExamPs' που περιέχει το docker-compose.yml αρχείο , τον φάκελο mongodb στον οποίο θα αποθηκεύτουν τα δεδομένα της βάσης ώστε να αποφευχθεί η απώλει τους και τον φάκελο flask που περιέχει το Dockerfile και το app.py όπου είναι ο πηγαίος κώδικας. Τα βήματα που ακολουθούμε για το Containerization του web service είναι<br> 1) Η εντολή docker-compose build για να δημιουρηθεί το  flask service <br>2) H εντολή docker-compose up για την ενεργοποιήση του . <br>3)Μετά απο αυτό είμαστε έτοιμοι να εκτελέσουμε τα endpoints του web service.</p>
